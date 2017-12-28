@@ -1,0 +1,10 @@
+D:\十一届\C#开发\手环\Bracelet\Bracelet\bin\Debug\Bracelet.exe.config
+D:\十一届\C#开发\手环\Bracelet\Bracelet\bin\Debug\Bracelet.exe
+D:\十一届\C#开发\手环\Bracelet\Bracelet\bin\Debug\Bracelet.pdb
+D:\十一届\C#开发\手环\Bracelet\Bracelet\obj\Debug\Bracelet.csprojResolveAssemblyReference.cache
+D:\十一届\C#开发\手环\Bracelet\Bracelet\obj\Debug\Bracelet.Properties.Resources.resources
+D:\十一届\C#开发\手环\Bracelet\Bracelet\obj\Debug\Bracelet.csproj.GenerateResource.Cache
+D:\十一届\C#开发\手环\Bracelet\Bracelet\obj\Debug\Bracelet.csproj.CoreCompileInputs.cache
+D:\十一届\C#开发\手环\Bracelet\Bracelet\obj\Debug\Bracelet.exe
+D:\十一届\C#开发\手环\Bracelet\Bracelet\obj\Debug\Bracelet.pdb
+D:\十一届\C#开发\手环\Bracelet\Bracelet\obj\Debug\Bracelet.FormMain.resources
