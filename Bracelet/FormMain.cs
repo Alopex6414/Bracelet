@@ -51,8 +51,12 @@ namespace Bracelet
             {
                 nX = (nScreenWidth - this.Width) >> 1;
                 nY = (nScreenHeight - this.Height) >> 1;
-                SetWindowPos(this.Handle, (IntPtr)0, nX, nY, this.Width, this.Height, 64);
+                SetWindowPos(this.Handle, (IntPtr)0, nX, nY, this.Width, this.Height, 64);  //设置窗口初始位置
             }
+
+            this.DoubleBuffered = true; //窗口双缓冲
+            this.FormBorderStyle = FormBorderStyle.FixedSingle; //窗口禁止改变大小
+            this.MaximizeBox = false; //窗体禁止最大化
         }
         #endregion
     }
