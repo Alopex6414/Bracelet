@@ -8,9 +8,10 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>Bracelet</RootNamespace>
     <AssemblyName>Bracelet</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -70,6 +71,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -83,6 +85,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\title\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\title\close_focus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\title\close_hor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\title\max.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\title\max_focus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\title\max_hor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\title\min.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\title\min_focus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\title\min_hor.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
